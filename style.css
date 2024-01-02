@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;  
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.card{
+    padding: 20px;
+    max-width:  255px; 
+}
+
+.card img{
+    padding: 15px;
+}
+#q1{
+    background-color: #e28525;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#q2{
+    background-color: #016972;
+}
+
+#q3{
+    background-color: #00403f;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.text{
+    padding: 20px;
+    padding-right: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', arial, sans-serif;
+    font-size: 15px;    
+    line-height: 1.9;
+    width: 250px;
+}
+
+.title{
+    color: white;
+    padding: 20px;
+    font-family: 'Big Shoulders Display', arial, sans-serif;
+}
+
+
+button{
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    width: 150px;
+    border: 0px solid transparent;
+    font-family: 'Lexend Deca', arial, sans-serif;;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+#b1{
+    color: #e28525;
+}
+#b2{
+    color: #016972;;
+}
+
+#b3{
+    color: #00403f;
+}
+
+#b1:hover, #b2:hover, #b3:hover{
+    color: white;
+}
